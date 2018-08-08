@@ -5,6 +5,7 @@ RUN apt install man -y
 
 ADD create_corpus.sh /root/torch-rnn/
 COPY sample_checkpoint.sh /root/torch-rnn/
+RUN chmod +x create_corpus.sh sample_checkpoint.sh
 
 RUN ./create_corpus.sh
 
