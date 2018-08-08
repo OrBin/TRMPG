@@ -1,11 +1,10 @@
-FROM crisbal/torch-rnn:base
+FROM crisbal/torch-rnn:cuda7.5
+MAINTAINER Or Bin "orbin50@gmail.com"
 
 RUN apt install man -y
 
-COPY create_corpus.sh /root/torch-rnn/
+ADD create_corpus.sh /root/torch-rnn/
 COPY sample_checkpoint.sh /root/torch-rnn/
-
-#WORKDIR /root/torch-rnn
 
 RUN ./create_corpus.sh
 
