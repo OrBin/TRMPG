@@ -4,7 +4,18 @@ Man-page generation, using [jcjohnson/torch-rnn](https://github.com/jcjohnson/to
 Docker image is based on [crisbal/docker-torch-rnn](https://github.com/crisbal/docker-torch-rnn).
 
 ## Available tags
-TODO
+* `orbin/trmpg:base`
+    * Based on `crisbal/torch-rnn:base`
+    * Allows usage of torch-rnn in CPU mode
+* _Coming soon:_ `orbin/trmpg:cuda6.5`
+    * Based on `crisbal/torch-rnn:cuda6.5` 
+    * Allows usage of torch-rnn in GPU mode (Cuda 6.5 support)
+    * Only run with nvidia-docker https://github.com/NVIDIA/nvidia-docker
+* _Coming soon:_ `orbin/trmpg:cuda7.5`
+    * Based on `crisbal/torch-rnn:cuda7.5`
+    * Allows usage of torch-rnn in GPU mode (Cuda 7.5 support)
+    * Only run with nvidia-docker https://github.com/NVIDIA/nvidia-docker
+
 
 ## Usage
 ### CPU Only
