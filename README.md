@@ -12,6 +12,10 @@ Docker image is based on [crisbal/docker-torch-rnn](https://github.com/crisbal/d
     * Allows usage of torch-rnn in GPU mode (Cuda 7.5 support)
     * Only run with nvidia-docker https://github.com/NVIDIA/nvidia-docker
 
+## Pre-trained models
+I supply two checkpoints of the training:
+* [After 147000 iterations](checkpoints/checkpoint_147000.t7) - yields nice results
+* [After 160000 iterations](checkpoints/checkpoint_160000.t7)
 
 ## Usage
 ### CPU Only
