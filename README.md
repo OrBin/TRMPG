@@ -15,7 +15,7 @@ Docker image is based on [crisbal/docker-torch-rnn](https://github.com/crisbal/d
 ## Output examples
 Examples for received output: 
 ![](images/example1.png)
-![](images/example2.png)
+![](images/example2.jpg)
 
 ## Pre-trained models
 I supply two checkpoints of the training:
